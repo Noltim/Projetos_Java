@@ -112,8 +112,8 @@ public class Urna {
 							+ Candidatos.get(j).getPartido() + ", Votos: " + Candidatos.get(j).getVotos());
 				}
 				System.out.print("|------------------------------------------|\n");
-				System.out.print("| Total de candidatos: " + Candidatos.size()+"\n");
-				System.out.print("| Total de votos: " + contadorVoto+ "\n");
+				System.out.print("| Total de candidatos: " + Candidatos.size() + "\n");
+				System.out.print("| Total de votos: " + contadorVoto + "\n");
 				System.out.print("| Obrigado a todos que votaram.            |\n");
 				System.out.print("|------------------------------------------|\n");
 				escolha = 5;
@@ -147,5 +147,4 @@ public class Urna {
 			System.out.print("|---------------------------------------------------|\n\n");
 		}
 	}
-
 }
