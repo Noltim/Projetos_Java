@@ -22,13 +22,20 @@ public class Urna {
 
 			switch (escolha) {
 			case 1:
-				System.out.println("Digite o número: ");
+				System.out.print("|-----------------------------|\n");
+				System.out.print("| Digite o número:            |\n");
+				System.out.print("|-----------------------------|\n");
 				numero = leia.nextInt();
-				System.out.println("Digite o nome: ");
+				System.out.print("|-----------------------------|\n");
+				System.out.print("| Digite o nome:              |\n");
+				System.out.print("|-----------------------------|\n");
 				leia.nextLine();
 				nome = leia.nextLine();
-				System.out.println("Digite o partido: ");
+				System.out.print("|-----------------------------|\n");
+				System.out.print("| Digite o partido:           |\n");
+				System.out.print("|-----------------------------|\n");
 				partido = leia.nextLine();
+				
 				Candidatos.add(new CandidatoTeste(numero, nome, partido));
 				Urna.clearConsole("Candidato cadastrado.");
 
